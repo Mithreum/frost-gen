@@ -1,0 +1,15 @@
+{
+  "name": "frost-gen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "generate": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.1",
+    "ethers": "5.5.4",
+    "frost-secp256k1": "git+https://github.com/XP-NETWORK/frost-secp256k1-js#dist-x86_64-unknown-linux-gnu",
+    "ts-node": "^10.9.1"
+  }
+}
